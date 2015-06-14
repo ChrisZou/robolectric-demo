@@ -12,10 +12,4 @@
         android:text="@string/hello_world"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-    <com.github.rahatarmanahmed.cpv.CircularProgressView
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/progress_view"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        app:cpv_indeterminate="true"/>
 </RelativeLayout>
