@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 22
-    buildToolsVersion "23.0.0 rc2"
+    buildToolsVersion "23.0.2"
 
     defaultConfig {
         applicationId "com.chriszou.testrobolectric"
@@ -24,7 +24,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:22.2.0'
     //Unit test
     testCompile 'junit:junit:4.12'
-    testCompile('org.robolectric:robolectric:3.0-rc3') {
+    testCompile('org.robolectric:robolectric:3.0') {
         exclude module: 'commons-logging'
     }
 }
